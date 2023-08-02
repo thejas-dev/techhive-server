@@ -32,7 +32,7 @@ try{
 }
 
 app.get('/',(req,res)=>{
-	res.status(2000);
+	res.status(200);
 	res.send("hello world")
 })
 
